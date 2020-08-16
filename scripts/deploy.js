@@ -1,7 +1,7 @@
 const ghpages = require("gh-pages");
 
 ghpages.publish(
-  "__sapper__/export",
+  "__sapper__/export/Sapper-pwa",
   {
     branch: "master",
     repo: "https://github.com/Romanov-Maxim-traineeship/Sapper-pwa.git",

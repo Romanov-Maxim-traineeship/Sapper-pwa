@@ -11,7 +11,7 @@
     "test": "run-p --race dev cy:run",
     "clean": "rm -rf ./__sapper__",
 
-    "export": "sapper export",
+    "export": "sapper export --basepath Sapper-pwa",
     "deploy": "npm run clean && npm run export && node ./scripts/deploy.js"
   },
   "dependencies": {
